@@ -1,7 +1,10 @@
 public class HelloWorld {
 
 	public static void main(String[] args) {
-		String str = "abcdefghijkl";
-		System.out.println(str.substring(3, 12));
+		sayHello();
+	}
+
+	public static void sayHello() {
+        System.out.println("Hello World!!!!");
 	}
 }
